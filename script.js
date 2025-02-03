@@ -1,3 +1,4 @@
+
 function calculateTip() {
   let bill = document.getElementById("bill").value;
   let percentage = document.getElementById("percentage").value;

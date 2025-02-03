@@ -19,16 +19,16 @@
 
   <body>
     <h2>Tip Calculator</h2>
-
-    <form id="tipform">
-      <label for="bill">Total Bill:</label><br />
-      <input type="number" id="bill" name="bill" value="" /><br />
-      <label for="percentage">Tip Percentage:</label><br />
-      <input type="number" id="percentage" name="percentage" value="" /><br />
+    <div id="tipform">
+      <label for="bill">Total Bill:</label>
+      <input type="number" id="bill" name="bill" value="" />
+      <label for="percentage">Tip Percentage:</label>
+      <input type="number" id="percentage" name="percentage" value="" />
       <input type="button" value="Calculate Tip" onclick="calculateTip()" />
-    </form>
+    </div>
 
     <p id="result"></p>
+
     <!-- script -->
     <script src="script.js"></script>
   </body>
